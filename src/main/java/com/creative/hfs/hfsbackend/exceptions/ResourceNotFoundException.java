@@ -1,0 +1,9 @@
+package com.creative.hfs.hfsbackend.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+
+}
